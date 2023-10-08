@@ -1,5 +1,5 @@
 # React + Vite
-for new application 
+Steps for new application 
 
 npm init vite
 
