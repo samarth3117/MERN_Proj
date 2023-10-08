@@ -1,8 +1,28 @@
 # React + Vite
+for new application 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm init vite
 
-Currently, two official plugins are available:
+Projecct name
+....
+React choose
+javascript choose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# step two run the client application
+
+  cd Client
+  npm install
+  npm run dev
+  
+npm install bootstrap axios react-router-dom
+
+
+# step two run the server application
+cd Server
+ npm init -y 
+ npm install express mongoose cors nodemon
+ under package.json we write "start": "nodemon index.js" within script tag
+
+ # create database in mongodb compass
+ database name: CRUD
+ collection name: Users
